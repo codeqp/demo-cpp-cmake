@@ -4,5 +4,5 @@
 
 void print_test2() {
     std::cout << "Hello, test2!\n";
-    int test1_i1 = 1 / 0;
+    int test2_i1 = 1 / 0;
 }
