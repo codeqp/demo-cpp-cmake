@@ -11,5 +11,8 @@ int main(int, char**) {
 
     void* p = malloc(10);
     delete p;
+
+    int i = 2000000000;
+    long j = i * i;
     return 0;
 }
