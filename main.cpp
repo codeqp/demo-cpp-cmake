@@ -11,5 +11,7 @@ int main(int, char**) {
     std::cout << "Hello, world!\n";
     print_test2();
     print_test1();
+    isOdd(-1);
+    int x = x;
     return 0;
 }
