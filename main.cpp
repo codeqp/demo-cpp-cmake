@@ -1,17 +1,15 @@
 #include <iostream>
+#include <stdlib.h>
 
 #include "test1.h"
 #include "test2.h"
-
-bool isOdd(int n) {
-    return n % 2 == 1;
-}
 
 int main(int, char**) {
     std::cout << "Hello, world!\n";
     print_test2();
     print_test1();
-    isOdd(-1);
-    int x = x;
+
+    void* p = malloc(10);
+    delete p;
     return 0;
 }
