@@ -74,3 +74,10 @@ jobs:
       uses: github/codeql-action/analyze@v2
       with:
         category: "/language:${{matrix.language}}"
+
+    - name: Archive sarif files
+      uses: actions/upload-artifact@v3
+      with:
+        name: "sarif-files"
+        path: |-
+          ../results/*.sarif
